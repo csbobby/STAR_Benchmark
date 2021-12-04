@@ -1,0 +1,111 @@
+a000 hold some clothes
+a001 put clothes somewhere
+a002 take some clothes from somewhere
+a003 throw clothes somewhere
+a004 tidy some clothes
+a005 wash some clothes
+a006 close a door
+a007 open a door
+a008 sit on a table
+a009 sit at a table
+a010 tidy up a table
+a011 wash a table
+a012 hold a phone/camera
+a013 put a phone/camera somewhere
+a014 take a phone/camera from somewhere
+a015 open a bag
+a016 put a bag somewhere
+a017 take a bag from somewhere
+a018 throw a bag somewhere
+a019 close a book
+a020 hold a book
+a021 open a book
+a022 put a book somewhere
+a023 take a book from somewhere
+a024 throw a book somewhere
+a025 watch/read/look at a book
+a026 put a towel/s somewhere
+a027 take a towel/s from somewhere
+a028 throw a towel/s somewhere
+a029 tidy up a towel/s
+a030 close a box
+a031 hold a box
+a032 open a box
+a033 put a box somewhere
+a034 take a box from somewhere
+a035 throw a box somewhere
+a036 close a laptop
+a037 hold a laptop
+a038 open a laptop
+a039 put a laptop somewhere
+a040 take a laptop from somewhere
+a041 hold a shoe/shoes
+a042 put shoes somewhere
+a043 take shoes from somewhere
+a044 throw shoes somewhere
+a045 sit in a chair
+a046 stand on a chair
+a047 hold some food
+a048 put some food somewhere
+a049 take food from somewhere
+a050 throw food somewhere
+a051 eat a sandwich
+a052 hold a sandwich
+a053 put a sandwich somewhere
+a054 take a sandwich from somewhere
+a055 hold a blanket
+a056 put a blanket somewhere
+a057 take a blanket from somewhere
+a058 throw a blanket somewhere
+a059 tidy up a blanket/s
+a060 hold a pillow
+a061 put a pillow somewhere
+a062 take a pillow from somewhere
+a063 throw a pillow somewhere
+a064 reach for and grab a picture
+a065 hold a picture
+a066 put a picture somewhere
+a067 watch/look at a picture
+a068 close a window
+a069 open a window
+a070 wash a window
+a071 watch/look outside of a window
+a072 hold a mirror
+a073 wash a mirror
+a074 walk through a doorway
+a075 hold a broom
+a076 put a broom somewhere
+a077 take a broom from somewhere
+a078 throw a broom somewhere
+a079 tidy up with a broom
+a080 turn on a light
+a081 turn off a light
+a082 drink from a cup/glass/bottle
+a083 put a cup/glass/bottle somewhere
+a084 take a cup/glass/bottle from somewhere
+a085 wash a cup/glass/bottle
+a086 close a closet/cabinet
+a087 open a closet/cabinet
+a088 tidy up a closet/cabinet
+a089 put their paper/notebook somewhere
+a090 take paper/notebook from somewhere
+a091 hold a dish
+a092 put a dish/es somewhere
+a093 take a dish/es from somewhere
+a094 wash a dish/dishes
+a095 lie on a sofa/couch
+a096 sit on sofa/couch
+a097 lie on the floor
+a098 sit on the floor
+a099 hold some medicine
+a100 take/consume some medicine
+a101 put groceries somewhere
+a102 watch television
+a103 lie on a bed
+a104 sit in a bed
+a105 hold a vacuum
+a106 take a vacuum from somewhere
+a107 wash their hands
+a108 grasp onto a doorknob
+a109 close a refrigerator
+a110 open a refrigerator

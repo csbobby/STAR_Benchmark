@@ -1,0 +1,17 @@
+v000 close
+v001 drink
+v002 eat
+v003 grasp
+v004 hold
+v005 lie
+v006 open
+v007 put
+v008 sit
+v009 stand
+v010 take
+v011 throw
+v012 tidy
+v013 turn
+v014 walk
+v015 wash
+v016 watch

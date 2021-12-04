@@ -1,0 +1,2 @@
+person,broom,picture,closet/cabinet,blanket,window,table,paper/notebook,refrigerator,pillow,cup/glass/bottle,shelf,shoe,medicine,phone/camera,box,sandwich,book,bed,clothes,mirror,sofa/couch,floor,bag,dish,laptop,door,towel,food
+on,at_the_right_of,at_the_left_of,behind,in_front_of,on_the_side_of,above,beneath,drinking_from,have_it_on_the_back,wearing,holding,lying_on,covered_by,carrying,eating,leaning_on,sitting_on,twisting,writing_on,standing_on,touching,wiping,against,along,at,to,laying on,under,near,on back of,over
