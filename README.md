@@ -34,9 +34,7 @@ To download STAR dataset, please refer to the [STAR Homepage](http://star.csail.
 	
 	You can download STAR Video QA via following links:
 
-	Questions and Answers: [Train](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_train.json) [Val](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_val.json) [Test](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_test.json)
-
-	[Train/Val/Test Split File](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/split_file.json)
+	Questions and Answers: [Train](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_train.json) / [Val](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_val.json) / [Test](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_test.json) / [Train/Val/Test Split File](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/split_file.json)
 
 * **Classes**
 	
@@ -49,7 +47,7 @@ To download STAR dataset, please refer to the [STAR Homepage](http://star.csail.
 * **Other**
 	
 	We offer the question, answer and program templates we designed in [Question Templates](http://star.csail.mit.edu/data/Templates_Programs/QA_templates.csv) and [QA Programs](http://star.csail.mit.edu/data/Templates_Programs/QA_programs.csv). 
-	
+
 	You can use those templates, [Object Bounding Boxes](http://star.csail.mit.edu/data/Annotations/object_bbox_and_relationship.pkl), and [Human Bounding Boxes](http://star.csail.mit.edu/data/Annotations/person_bbox.pkl) to generate new QAs with Situation Graphs.
 
 ## Online Evaluation
