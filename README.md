@@ -24,7 +24,7 @@ You are welcome to use [STAR Challenge Leaderboard](https://eval.ai/web/challeng
 
 ## STAR Visulazation
 
-We also prodive `code/QA_Visualization.ipynb` to visualize Question / Options / Video / Situation Graphs in STAR.
+We prodive `code/QA_Visualization.ipynb` to visualize Question / Options / Video / Situation Graphs in STAR.
  * before visualization, please download the Supporting Data (include video keyframes from Action Genome and original videos from Charades) and place them in the mentioned directories in the scripts.
 
 ## STAR Program Execution
@@ -53,8 +53,38 @@ year = {2021}
 }
 ```
 
+## STAR Data Download
 
+### Question, Multiple Choice Answers and Situation Graphs  
+ * Questions and Answers (.json) : [Train](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_train.json) [Val](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_val.json) [Test](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_test.json)
+ * [Train/Val/Test Split File (.json)](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/split_file.json)
 
+### Question-Answer Templates and Programs  
+ * [Question Templates (.csv)](http://star.csail.mit.edu/data/Templates_Programs/QA_templates.csv)
+ * [QA Programs (.csv)](http://star.csail.mit.edu/data/Templates_Programs/QA_programs.csv)
 
+### Situation Video Data  
+ * [Video Segments (.csv)](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Segments.csv)
+ * [Video Keyframe IDs (.csv)](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Keyframe_IDs.csv)
+ * [Frame Dumping Tool from Action Genome](https://github.com/JingweiJ/ActionGenome)
+
+### Annotations  
+ * [Human Poses (.zip)](http://star.csail.mit.edu/data/Annotations/pose.zip)
+ * [Object Bounding Boxes (.pkl)](http://star.csail.mit.edu/data/Annotations/object_bbox_and_relationship.pkl)
+ * [Human Bounding Boxes (.pkl)](http://star.csail.mit.edu/data/Annotations/person_bbox.pkl)
+
+### Supporting Data  
+* Our bench built upon [Charades Dataset](https://prior.allenai.org/projects/charades) and [Action Genome](https://www.actiongenome.org), please download raw videos from Charades Dataset through below links.
+* Video Frames
+  * [Raw Videos from Charades Dataset (scaled to 480p)](https://prior.allenai.org/projects/charades)
+* Video Features
+  * [Visual Features from Charades Dataset](https://prior.allenai.org/projects/charades)
+
+### STAR Visulization
+We prodive some QA examples in STAR which you can visulize by using [QA Visualization Script](https://github.com/csbobby/STAR_Benchmark)
+ * before visualization, please download the Supporting Data (include video keyframes from Action Genome and original videos from Charades) and place them in the mentioned directories in the scripts.
+
+### STAR Generation
+We also prodive our QA generation code, you can generate new STAR questions for situation video clips: [QA Generation Code](https://github.com/csbobby/STAR_Benchmark)
 
 
