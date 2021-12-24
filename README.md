@@ -16,7 +16,7 @@ Reasoning in the real world is not divorced from situations. A key challenge is 
 
 ## Data Download
 
-To download STAR dataset, please refer to the [STAR homepage](http://star.csail.mit.edu) 
+To download STAR dataset, please refer to the [STAR Homepage](http://star.csail.mit.edu) 
 
 ## Online Evaluation
 
@@ -40,7 +40,7 @@ to utlize STAR program excutor.
 
 We prodive `code/QA_generation.ipynb`, you can generate new STAR questions for situation video clips
 
-## Citing STAR
+## Citation STAR
 
 If you use STAR in your research or wish to refer to the results published in the paper, please use the following BibTeX entry.
 
@@ -53,7 +53,7 @@ year = {2021}
 }
 ```
 
-## STAR Data Download
+## STAR Data Outline
 
 ### Question, Multiple Choice Answers and Situation Graphs  
  * Questions and Answers (.json) : [Train](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_train.json) [Val](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_val.json) [Test](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_test.json)
