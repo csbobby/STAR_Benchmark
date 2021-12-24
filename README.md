@@ -74,7 +74,7 @@ year = {2021}
  * [Human Bounding Boxes (.pkl)](http://star.csail.mit.edu/data/Annotations/person_bbox.pkl)
 
 ### Supporting Data  
-* Our bench built upon [Charades Dataset](https://prior.allenai.org/projects/charades) and [Action Genome](https://www.actiongenome.org), please download raw videos from Charades Dataset through below links.
+Our bench built upon [Charades Dataset](https://prior.allenai.org/projects/charades) and [Action Genome](https://www.actiongenome.org), please download raw videos from Charades Dataset as follows:
 * Video Frames
   * [Raw Videos from Charades Dataset (scaled to 480p)](https://prior.allenai.org/projects/charades)
 * Video Features
@@ -85,6 +85,6 @@ We prodive some QA examples in STAR which you can visulize by using [QA Visualiz
  * before visualization, please download the Supporting Data (include video keyframes from Action Genome and original videos from Charades) and place them in the mentioned directories in the scripts.
 
 ### STAR Generation
-We also prodive our QA generation code, you can generate new STAR questions for situation video clips: [QA Generation Code](https://github.com/csbobby/STAR_Benchmark)
+We also prodive our QA generation code, you can generate new STAR questions from more situation videos: [QA Generation Code](https://github.com/csbobby/STAR_Benchmark)
 
 
