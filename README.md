@@ -28,7 +28,8 @@ To download STAR dataset, please refer to the [STAR Homepage](http://star.csail.
 
 * **Video Clips**
 
-	We offer video start and end time of each QA in [Video Segments](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Segments.csv), and keyframes index in [Video Keyframe IDs](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Keyframe_IDs.csv). You can use them to get the same video clips used in STAR.
+	We offer video start and end time of each QA in [Video Segments](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Segments.csv), and keyframes index in [Video Keyframe IDs](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Keyframe_IDs.csv). You can use them to get the same video clips used in STAR. We use ffmpeg to trim raw videos with annotations, run:
+	* ` ffmpeg -y -ss start_time -to end_time -i input_path -codec copy output_path`
 
 * **Question, Multiple Choice Answers and Situation Graphs**
 	
