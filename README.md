@@ -5,12 +5,11 @@
 <img src="img/NeurIPS2021_star_teaser.png" width="600" >
 </div>
 
-[STAR Paper on NeurIPS](https://openreview.net/pdf?id=EfgNF5-ZAjM): A new benchmark for situated reasoning in real-world videos. 
-
+[[STAR Homepage](http://star.csail.mit.edu)]
 Reasoning in the real world is not divorced from situations. A key challenge is to capture the present knowledge from surrounding situations and reason accordingly. STAR is a novel benchmark for Situated Reasoning, which provides challenging question-answering tasks, symbolic situation descriptions and logic-grounded diagnosis via real-world video situations.
 
 ## Overview
-
+* [STAR Paper](https://openreview.net/pdf?id=EfgNF5-ZAjM)
 * 4 Qutestion Types
 * 60k Situated Questions
 * 23k Situation Video Clips
@@ -28,23 +27,23 @@ We prodive `code/QA_Visualization.ipynb` to visualize Question / Options / Video
 ## STAR Data Outline
 
 ### Question, Multiple Choice Answers and Situation Graphs  
- * Questions and Answers (.json) : [Train](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_train.json) [Val](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_val.json) [Test](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_test.json)
- * [Train/Val/Test Split File (.json)](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/split_file.json)
+ * Questions and Answers (.json) : [Train](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/STAR_train.json) [Val](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/STAR_val.json) [Test](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/STAR_test.json)
+ * [Train/Val/Test Split File (.json)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/split_file.json)
 
 ### Question-Answer Templates and Programs  
- * [Question Templates (.csv)](http://star.csail.mit.edu/data/Templates_Programs/QA_templates.csv)
- * [QA Programs (.csv)](http://star.csail.mit.edu/data/Templates_Programs/QA_programs.csv)
+ * [Question Templates (.csv)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Templates_Programs/QA_templates.csv)
+ * [QA Programs (.csv)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Templates_Programs/QA_programs.csv)
 
 ### Situation Video Data  
- * [Video Segments (.csv)](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Segments.csv)
- * [Video Keyframe IDs (.csv)](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Keyframe_IDs.csv)
+ * [Video Segments (.csv)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Situation_Video_Data/Video_Segments.csv)
+ * [Video Keyframe IDs (.csv)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Situation_Video_Data/Video_Keyframe_IDs.csv)
  * [Frame Dumping Tool from Action Genome](https://github.com/JingweiJ/ActionGenome)
 
 ### Annotations  
- * [Classes Files (.zip)](http://star.csail.mit.edu/data/Annotations/classes.zip) 
- * [Human Poses (.zip)](http://star.csail.mit.edu/data/Annotations/pose.zip)
- * [Object Bounding Boxes (.pkl)](http://star.csail.mit.edu/data/Annotations/object_bbox_and_relationship.pkl)
- * [Human Bounding Boxes (.pkl)](http://star.csail.mit.edu/data/Annotations/person_bbox.pkl)
+ * [Classes Files (.zip)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/classes.zip) 
+ * [Human Poses (.zip)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/pose.zip)
+ * [Object Bounding Boxes (.pkl)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/object_bbox_and_relationship.pkl)
+ * [Human Bounding Boxes (.pkl)](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/person_bbox.pkl)
 
 ### Supporting Data  
 Our bench built upon [Charades Dataset](https://prior.allenai.org/projects/charades) and [Action Genome](https://www.actiongenome.org), please download raw videos from Charades Dataset as follows:
@@ -67,18 +66,18 @@ To download STAR dataset, please refer to the [STAR Homepage](http://star.csail.
 
 * **Video Clips**
 
-	We offer video start and end time of each QA in [Video Segments](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Segments.csv), and keyframes index in [Video Keyframe IDs](http://star.csail.mit.edu/data/Situation_Video_Data/Video_Keyframe_IDs.csv). You can use them to get the same video clips used in STAR. We use ffmpeg to trim raw videos with annotations, run:
+	We offer video start and end time of each QA in [Video Segments](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Situation_Video_Data/Video_Segments.csv), and keyframes index in [Video Keyframe IDs](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Situation_Video_Data/Video_Keyframe_IDs.csv). You can use them to get the same video clips used in STAR. We use ffmpeg to trim raw videos with annotations, run:
 	* ` ffmpeg -y -ss start_time -to end_time -i input_path -codec copy output_path`
 
 * **Question, Multiple Choice Answers and Situation Graphs**
 	
 	You can download STAR Video QA via following links:
 
-	Questions and Answers: [Train](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_train.json) | [Val](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_val.json) | [Test](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/STAR_test.json) | [Train/Val/Test Split File](http://star.csail.mit.edu/data/Question_Answer_SituationGraph/split_file.json)
+	Questions and Answers: [Train](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/STAR_train.json) | [Val](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/STAR_val.json) | [Test](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/STAR_test.json) | [Train/Val/Test Split File](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Question_Answer_SituationGraph/split_file.json)
 
 * **Classes**
 	
-	The classes of actions, verbs, objects, and relationships are included in [classes files](http://star.csail.mit.edu/data/Annotations/classes.zip)
+	The classes of actions, verbs, objects, and relationships are included in [classes files](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/classes.zip)
 
 * **Human Poses**
 	
@@ -86,9 +85,9 @@ To download STAR dataset, please refer to the [STAR Homepage](http://star.csail.
 
 * **Other**
 	
-	We offer the question, answer and program templates we designed in [Question Templates](http://star.csail.mit.edu/data/Templates_Programs/QA_templates.csv) and [QA Programs](http://star.csail.mit.edu/data/Templates_Programs/QA_programs.csv). 
+	We offer the question, answer and program templates we designed in [Question Templates](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Templates_Programs/QA_templates.csv) and [QA Programs](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Templates_Programs/QA_programs.csv). 
 
-	You can use those templates, [Object Bounding Boxes](http://star.csail.mit.edu/data/Annotations/object_bbox_and_relationship.pkl), and [Human Bounding Boxes](http://star.csail.mit.edu/data/Annotations/person_bbox.pkl) to generate new QAs with Situation Graphs.
+	You can use those templates, [Object Bounding Boxes](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/object_bbox_and_relationship.pkl), and [Human Bounding Boxes](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/person_bbox.pkl) to generate new QAs with Situation Graphs.
 
 ## STAR Program Execution
 
@@ -105,10 +104,11 @@ to utlize STAR program excutor.
 We also prodive our QA generation code, you can generate new STAR questions from more situation videos: [QA Generation Code](https://github.com/csbobby/STAR_Benchmark)
 
 
-## Citation STAR
+## Publication
+[STAR: A Benchmark for Situated Reasoning in Real-World Videos](http://star.csail.mit.edu) [[Paper PDF](https://openreview.net/pdf?id=EfgNF5-ZAjM)]  
+Bo Wu, Shoubin Yu, Zhenfang Chen, Joshua B Tenenbaum, Chuang Gan. NeurIPS. 2021.
 
 If you use STAR in your research or wish to refer to the results published in the paper, please use the following BibTeX entry.
-
 ```BibTeX
 @inproceedings{wu2021star_situated_reasoning,
 author={Wu, Bo and Yu, Shoubin and Chen, Zhenfang and Tenenbaum, Joshua B and Gan, Chuang},
