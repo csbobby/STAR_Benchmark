@@ -104,7 +104,7 @@ to utlize STAR program excutor.
 We also prodive our QA generation code, you can generate new STAR questions from more situation videos: [QA Generation Code](https://github.com/csbobby/STAR_Benchmark)
 
 
-## Publication
+## Citation
 [STAR: A Benchmark for Situated Reasoning in Real-World Videos](http://star.csail.mit.edu) [[Paper PDF](https://openreview.net/pdf?id=EfgNF5-ZAjM)]  
 Bo Wu, Shoubin Yu, Zhenfang Chen, Joshua B Tenenbaum, Chuang Gan. NeurIPS. 2021.
 
