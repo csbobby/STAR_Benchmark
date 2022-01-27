@@ -9,7 +9,10 @@
 Reasoning in the real world is not divorced from situations. A key challenge is to capture the present knowledge from surrounding situations and reason accordingly. STAR is a novel benchmark for Situated Reasoning, which provides challenging question-answering tasks, symbolic situation descriptions and logic-grounded diagnosis via real-world video situations.
 
 ## Overview
-* [STAR Paper](https://openreview.net/pdf?id=EfgNF5-ZAjM)
+>
+[STAR: A Benchmark for Situated Reasoning in Real-World Videos](http://star.csail.mit.edu) [[Paper PDF](https://openreview.net/pdf?id=EfgNF5-ZAjM)]  
+Bo Wu, Shoubin Yu, Zhenfang Chen, Joshua B Tenenbaum, Chuang Gan, *NeurIPS*, 2021.
+>
 * 4 Qutestion Types
 * 60k Situated Questions
 * 23k Situation Video Clips
@@ -105,8 +108,6 @@ We also prodive our QA generation code, you can generate new STAR questions from
 
 
 ## Citation
-[STAR: A Benchmark for Situated Reasoning in Real-World Videos](http://star.csail.mit.edu) [[Paper PDF](https://openreview.net/pdf?id=EfgNF5-ZAjM)]  
-Bo Wu, Shoubin Yu, Zhenfang Chen, Joshua B Tenenbaum, Chuang Gan. NeurIPS. 2021.
 
 If you use STAR in your research or wish to refer to the results published in the paper, please use the following BibTeX entry.
 ```BibTeX
