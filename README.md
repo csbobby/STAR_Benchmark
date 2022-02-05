@@ -84,7 +84,7 @@ To download STAR dataset, please refer to the [STAR Homepage](http://star.csail.
 
 * **Human Poses**
 	
-	We extracted human poses in each keyframe via [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose). You can download [poses](https://stardata.s3.amazonaws.com/Annotations/pose.zip) we extracted. Poses are referred by video ID and keyframe ID. 
+	We extracted human poses in each keyframe via [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose). You can download [poses](https://star-benchmark.s3.us-east.cloud-object-storage.appdomain.cloud/Annotations/pose.zip) we extracted. Poses are referred by video ID and keyframe ID. 
 
 * **Other**
 	
