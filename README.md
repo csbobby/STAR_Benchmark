@@ -10,7 +10,7 @@ Reasoning in the real world is not divorced from situations. A key challenge is 
 
 ## Overview
 >
-[STAR: A Benchmark for Situated Reasoning in Real-World Videos](http://star.csail.mit.edu) [[Paper PDF](https://openreview.net/pdf?id=EfgNF5-ZAjM)]  
+[STAR: A Benchmark for Situated Reasoning in Real-World Videos](https://bobbywu.com/STAR) [[Paper PDF](https://openreview.net/pdf?id=EfgNF5-ZAjM)]  
 Bo Wu, Shoubin Yu, Zhenfang Chen, Joshua B Tenenbaum, Chuang Gan, *NeurIPS*, 2021.
 >
 * 4 Qutestion Types
