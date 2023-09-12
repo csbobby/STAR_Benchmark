@@ -60,7 +60,7 @@ def load_csv(csv_dir):
 def load_action_mapping(csv_dir):
 
     dict = {}
-    with open(csv_dir + "/classes.txt") as f:
+    with open(csv_dir + "/action_classes.txt") as f:
         lines = f.readlines()
         for line in lines:
             tag = line[0:4]
