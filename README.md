@@ -1,5 +1,5 @@
-
 ## STAR: A Benchmark for Situated Reasoning in Real-World Videos
+The STAR Challenge this year is begining: [STAR Challenge](https://eval.ai/web/challenges/challenge-page/1325/leaderboard/3328/Mean)
 
 <div align="center">
 <img src="img/NeurIPS2021_star_teaser.png" width="600" >
